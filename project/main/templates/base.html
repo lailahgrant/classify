@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta name="author" content="Claire Muwanguzi">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+
+    {% block head %}
+
+    <title> Start up App </title>
+    <meta name="description" content="Housing App">
+
+    {% endblock %}
+   
+  
+</head>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c6f3fda3341d22d9ce5819e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/"> Classify</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="/statistics">Statistics
+        <span class="caret"></span></a>
+        
+        <ul class="dropdown-menu">
+
+          <li><a href=""> About </a></li>
+          <li><a href=""> Average prices </a></li>
+        </ul>
+      </li>
+  
+      <li><a href="#">Contacts</a></li>
+      
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      </a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+	
+	{% block content %}
+	<header style="color: green"> House for cash </header>
+
+	<p> This is my content </p>
+
+
+	{% endblock %}
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
