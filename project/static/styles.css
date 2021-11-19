@@ -1,0 +1,154 @@
+#hse2{
+
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height:250px;  
+
+ }
+
+ .c1 {
+ 	text-align: center;
+  /*color: green;*/
+  font-size: 14px;
+
+ }
+
+ .heading {
+  text-align: center;
+  /*color: green;*/
+  display: block;
+  font-size: 20px;
+  margin: 65px 0 10px 0;
+ }
+
+ .c2 {
+ 	text-align: center;
+  color: #FF0000; 
+  color: white; 
+
+
+ }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeinfo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px 10% 0 10%;
+  background-color: #f3f2f2;
+  border-radius: 15px;
+  padding: 10px;
+
+}
+#homelink{
+  color: green;
+  text-transform: uppercase;
+}
+
+.homeinfokids{
+  width: 25%;
+}
+
+.home {
+  background-image: linear-gradient(to top, rgba(0,0,0, 0),
+    rgba(0,0,0, 0)), url('in1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+}
+
+#main-content{
+  background-image:url('2-story.jpg');
+  background-image:url('american.jpg');
+  background-image:url('arc.jpg');
+  background-image:url('2-story.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.featsize{
+  width: 25%
+}
+
+.btnsdiv {
+  width: 40%;
+}
+.citynames{
+  position: absolute;
+  top: 80px;
+  display: block;
+  color:white;
+  left: 1%;
+  font-size: 28px;
+  
+}
+.message {
+    position: absolute;
+    bottom: 17px;
+    display: block;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    left: 25%;
+    font-size: 24px;
+    text-transform: ;
+}
+
+
+#body {
+  margin: 10;
+  padding: 10;
+  background-color: white;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+.prettyline {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+  justify-content: center;
+}
+
+.children {
+  display: block;
+  width: 40%;
+}
+
+.twocols {
+  width: 60%;
+}
+
+
