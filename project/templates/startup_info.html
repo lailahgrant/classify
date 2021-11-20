@@ -38,7 +38,10 @@
         <div id="city" class="homeinfokids">
 			<h4> Profession </h4>
 			{% for feature in features[13:23] %}
-			<input type="radio" name= "{{feature}}" class="c1 featsize" value={{values.get(feature)}}> {{feature}}  <br/> <br/>
+			<!-- <input type="radio" name= "{{feature}}" class="c1 featsize" value={{values.get(feature)}}> {{feature}}  <br/> <br/> -->
+			<select name= "{{feature}}" class="c1 featsize">
+				<option value={{values.get(feature)}}> {{feature}} </option>
+			</select>
 			{% endfor %}
 		</div>
 
